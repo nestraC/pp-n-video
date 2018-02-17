@@ -1,0 +1,77 @@
+:root {
+    --icon-size: 17vw;
+    --icon-rad: 15%;
+    --icon-side: 4vw;
+    --icon-btm: 6vw;
+    --logo-clr: #33A1E1;
+}
+body {
+    margin: 0;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+    display: grid;
+    grid-auto-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+header {
+    height: 1em;
+    padding: 1.5em var(--icon-side) 2.5em;
+    text-align: right;
+}
+header h1 {
+    font-family: 'Russo One', sans-serif;
+    color: var(--logo-clr);
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+figure {
+    margin: 0 var(--icon-side) var(--icon-btm);
+    width: var(--icon-size);
+}
+figure div {
+    width: var(--icon-size);
+    height: var(--icon-size);
+    background-color:lightskyblue;
+    border-radius: 12%;
+}
+figcaption {
+    text-align: center;
+    font-size: 0.8em;
+    line-height: 1.2em;
+    height: 3em;
+    margin: .4em 0 0;
+}
+footer {
+    text-align: center;
+}
+
+@media (min-width: 40em) {
+
+    :root {
+        --icon-size: 7vw;
+        --icon-rad: 15%;
+        --icon-side: 6.5vw;
+        --icon-btm: 3vw;
+    }
+    header {
+        padding: 3em var(--icon-side) 5em;
+    }
+    header h1 {
+        font-size: 1.5em;
+    }
+    header img {
+        width: auto;
+        height: 150%;
+    }
+
+}
