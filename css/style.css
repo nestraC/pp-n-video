@@ -40,9 +40,10 @@ figure {
 }
 figure div {
     width: var(--icon-size);
-    height: var(--icon-size);
-    background-color:lightskyblue;
-    border-radius: 12%;
+}
+figure img {
+    width: 100%;
+    height: auto;
 }
 figcaption {
     text-align: center;
