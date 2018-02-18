@@ -40,6 +40,7 @@ figure {
 }
 figure div {
     width: var(--icon-size);
+    background-color: transparent;
 }
 figure img {
     width: 100%;
