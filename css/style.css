@@ -38,6 +38,9 @@ figure {
     margin: 0 var(--icon-side) var(--icon-btm);
     width: var(--icon-size);
 }
+figure a {
+    display: block;
+}
 figure div {
     width: var(--icon-size);
     background-color: transparent;
